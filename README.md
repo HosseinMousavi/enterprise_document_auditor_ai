@@ -1,4 +1,4 @@
-# Enterprise PPTX Brand Auditor
+# Enterprise Document Brand Auditor
 
 A deployed, password-protected PowerPoint review app for Enterprise-style executive compensation presentations.
 
@@ -29,6 +29,10 @@ This design keeps the app practical for production: deterministic code handles r
 - CSV and JSON export
 - Annotated-deck support: extracts notes from annotated PPTX files for evaluation/debugging
 - Built to scale to future Enterprise decks, not tuned only to the provided samples
+
+## Application Preview
+
+![Application Screenshot](docs/screenshot.png) 
 
 ## Deterministic + AI-assisted review design
 
