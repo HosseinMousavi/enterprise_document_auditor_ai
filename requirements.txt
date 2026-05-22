@@ -1,0 +1,6 @@
+streamlit==1.41.1
+python-pptx==1.0.2
+pillow==11.0.0
+pandas==2.2.3
+pydantic==2.10.4
+python-dotenv==1.0.1
