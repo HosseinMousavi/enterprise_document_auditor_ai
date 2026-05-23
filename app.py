@@ -11,12 +11,12 @@ from src.auth import require_password
 from src.auditor import analyze_presentation
 from src.llm_judge import run_llm_judge, semantic_findings_to_issues
 
-st.set_page_config(page_title="Enterprise PPTX Brand Auditor", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Enterprise Document Brand Auditor", page_icon="📊", layout="wide")
 
 if not require_password():
     st.stop()
 
-st.title("Enterprise PPTX Brand Auditor")
+st.title("Enterprise Document Brand Auditor")
 st.caption("Upload a PowerPoint deck, review Enterprise brand-compliance issues by slide, and accept/reject flags.")
 with st.sidebar:
     st.header("Review settings")

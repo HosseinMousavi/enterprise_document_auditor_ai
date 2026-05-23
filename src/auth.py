@@ -17,7 +17,7 @@ def require_password() -> bool:
     if st.session_state.get("authenticated"):
         return True
 
-    st.title("Enterprise PPTX Brand Auditor")
+    st.title("Enterprise Document Brand Auditor")
     st.caption("Password-protected case study app")
     entered = st.text_input("Password", type="password")
     if st.button("Sign in", type="primary"):
